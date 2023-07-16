@@ -1,15 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/CSS/style.css">
-</head>
-<body>
-    <div class="test">Test</div>
-
-    <button id="myBtn">Try it</button>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="navbar-hamburger-icon-bar1"></div>
+        <div class="navbar-hamburger-icon-bar2"></div>
+        <div class="navbar-hamburger-icon-bar3"></div>
+        <nav class="navbar-container-mobile-view">
+          <ul>
+            <li><a class="active" href="#">Why Cologuard?</a></li>
+            <li><a class="active" href="#">Get Cologuard</a></li>
+            <li><a class="active" href="#">Use Cologuard</a></li>
+            <li><a class="active" href="#">Insurance & Billing</a></li>
+          </ul>
+          <div class="navbar__icon">
+            <form>
+              <input type="text" name="" placeholder="Search...." />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+          <div class="navbar__btn">
+            <button>Log in</button>
+          </div>
+        </nav>
+      </div>
+      <nav class="navbar-container">
+        <div><label class="navbar__logo">Cologuard Logo</label></div>
+        <div class="navbar__list">
+          <ul class="navbar__list-item">
+            <li><a class="active" href="#">Why Cologuard?</a></li>
+            <li><a class="active" href="#">Get Cologuard</a></li>
+            <li><a class="active" href="#">Use Cologuard</a></li>
+            <li><a class="active" href="#">Insurance & Billing</a></li>
+          </ul>
+        </div>
+        <div class="navbar__icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="navbar__btn">
+          <button>Log in</button>
+        </div>
+      </nav>
+    </div>
     <script src="./JS/style.js"></script>
-</body>
+  </body>
 </html>
