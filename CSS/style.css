@@ -214,8 +214,8 @@ a.active {
   }
 
   .navbar__btn {
-    margin: 16px;
     width: 100%;
+    padding: 8px 8px;
   }
 
   .navbar__btn button {
