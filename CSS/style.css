@@ -25,6 +25,7 @@ body {
   width: 100%;
   grid-template-areas: "logo list icon btn";
   align-items: center;
+  justify-items: center;
 }
 
 .navbar::before {
