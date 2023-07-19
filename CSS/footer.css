@@ -93,6 +93,18 @@
   padding: 0 45px 15px 0;
 }
 
+@media only screen and (max-width: 900px) {
+  .footer-mid-grid .ColTwo div {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .footer-mid-grid .ColTwo div p {
+    padding: 0.65rem 0;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .footer-flex-top {
     flex-direction: column;
