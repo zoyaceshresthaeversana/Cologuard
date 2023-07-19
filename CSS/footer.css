@@ -1,5 +1,6 @@
 .footer {
   color: white;
+  position: relative;
 }
 
 .footer-primary-container {
@@ -57,6 +58,41 @@
   color: #c0c0c0;
 }
 
+.bg-primary {
+  background-color: #002c73;
+}
+
+.bg-secondary {
+  background-color: #00144f;
+  background-image: url(../img/Helix\ PNG\ 1.webp);
+  background-position: bottom right;
+  background-size: auto;
+}
+
+.bg-secondary .container {
+  padding: 24px 50px;
+  margin-bottom: 0;
+}
+
+.bg-secondary .container p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 1rem;
+}
+
+.bg-secondary .container p a {
+  color: #99cff8;
+  text-decoration: underline;
+}
+
+.footer-icon {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  padding: 0 45px 15px 0;
+}
+
 @media only screen and (max-width: 800px) {
   .footer-flex-top {
     flex-direction: column;
@@ -94,5 +130,10 @@
 
   .footer-mid-grid .ColTwo div p {
     padding: 0.65rem 0;
+  }
+
+  .bg-secondary .container {
+    padding: 24px 50px 150px 50px;
+    margin-bottom: 0;
   }
 }
