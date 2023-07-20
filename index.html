@@ -304,22 +304,17 @@
                 </div>
                 <div>
                   <p>County</p>
-                  <select>
+                  <select id="County">
                     <option value="">Select your county</option>
-                    <option value="AL">Alabama</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>
-                    <option value="HI">Hawaii</option>
+                    <option value="QA">Queens</option>
                   </select>
                 </div>
                 <div>
                   <p>Provider</p>
-                  <select>
+                  <select id="Provider">
                     <option value="">Select your provider</option>
-                    <option value="AL">Alabama</option>
-                    <option value="AK">Alaska</option>
-                    <option value="AZ">Arizona</option>
-                    <option value="HI">Hawaii</option>
+                    <option value="EBB">Empire Bluecross Bluesheild</option>
+                    <option value="MP">MetroPlus</option>
                   </select>
                 </div>
               </div>
@@ -370,11 +365,11 @@
                   </defs>
                 </svg>
               </div>
-              <button>Search</button>
+              <button class="CommercialSearch">Search</button>
             </div>
           </div>
-          <!-- Display on select -->
-          <div class="container">
+          <!-- Display on Search If Covers-->
+          <div class="container hidden-cover-container">
             <div class="pb-16 pt-16">
               <h1>
                 Your provider
@@ -384,6 +379,80 @@
                 If you are over 45, at average risk, and not showing sypmtoms of
                 colorectal cancer
               </p>
+              <div class="two-col-flex pt-24">
+                <div class="ColOne">
+                  <div class="p20">
+                    <img
+                      src="./img/laptop.png"
+                      style="
+                        color: #002c73;
+                        height: auto;
+                        width: 125px;
+                        margin-top: -30px;
+                        margin-left: -20px;
+                      "
+                    />
+                    <h3>
+                      Ask for Cologuard
+                      <span style="color: #f07622">online</span>
+                    </h3>
+                    <p class="pb-24">
+                      Even if you have a healthcare provider or an
+                      <br />upcoming appointment, you can still request
+                      Cologuard online through a telemedinic <br />provider.
+                    </p>
+                    <a style="color: #002c73">Read More</a>
+                    <div class="pt-16" style="text-align: center">
+                      <button>Request Cologuard online</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="ColTwo">
+                  <div class="p20">
+                    <img
+                      src="./img/chat.png"
+                      style="
+                        color: #002c73;
+                        height: auto;
+                        width: 125px;
+                        margin-top: -30px;
+                        margin-left: -20px;
+                      "
+                    />
+                    <h3>
+                      Talk to your
+                      <span style="color: #f07622">healthcare provider</span>
+                    </h3>
+                    <p class="pb-24">
+                      If you're 45 or older, ask your healthcare provider about
+                      screening for colon cancer with Cologuard. This Doctor
+                      Discussion Guide can help get the conversation started
+                    </p>
+                    <a style="color: #002c73">Read More</a>
+                    <div class="pt-16" style="text-align: center">
+                      <button>Get Discussion Guide</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Display on Search If Doesn'ts Covers-->
+          <div class="hidden-non-cover-container">
+            <div class="container">
+              <div class="pb-16 pt-16">
+                <h1>
+                  Your provider
+                  <span style="color: #c01f5d">does not covers</span> Cologuard
+                  at this time
+                </h1>
+                <p>
+                  For more ways to pay for Cologuard, explore the Epic Science
+                  Pateint Assistance Program below or talk to our 24/7 customer
+                  care at 1-884-870-8870
+                </p>
+              </div>
             </div>
           </div>
         </div>

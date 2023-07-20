@@ -129,7 +129,7 @@ sup {
 
 .hidden-chart-container {
   text-align: left;
-  display: grid;
+  display: none;
   grid-template-areas: "ColOne  ColOne ColTwo";
 }
 
@@ -152,6 +152,41 @@ sup {
   padding: 12px 24px;
   color: white;
   font-size: 16px !important;
+}
+/* Hidden COver Container */
+.hidden-cover-container {
+  display: none;
+}
+
+.two-col-flex {
+  display: grid;
+  grid-template-areas: "ColOne ColTwo";
+  column-gap: 40px;
+}
+
+.two-col-flex .ColOne {
+  grid-area: ColOne;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.two-col-flex .ColTwo {
+  grid-area: ColTwo;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.two-col-flex button {
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #006cbe;
+  color: white;
+  margin-bottom: 0;
+  max-width: 100%;
+}
+
+.hidden-non-cover-container {
+  display: none;
 }
 
 @media only screen and (max-width: 900px) {
@@ -205,5 +240,17 @@ sup {
   .hidden-chart-container button {
     max-width: 40%;
     padding: 6px 12px;
+  }
+  .two-col-flex {
+    grid-template-areas:
+      "ColOne"
+      "ColTwo";
+    row-gap: 40px;
+  }
+
+  .two-col-flex .ColOne,
+  .ColTwo {
+    max-width: 90%;
+    margin: 0 auto;
   }
 }
