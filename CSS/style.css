@@ -15,17 +15,31 @@ body {
 .mb-24 {
   margin-bottom: 24px !important;
 }
+.mt-24 {
+  margin-top: 24px !important;
+}
 
 .mb-16 {
-  margin-bottom: 24px !important;
+  margin-bottom: 16px !important;
 }
 
 .mt-16 {
   margin-top: 16px !important;
 }
 
-.mt-24 {
-  margin-top: 24px !important;
+.pb-24 {
+  padding-bottom: 24px !important;
+}
+.pt-24 {
+  padding-top: 24px !important;
+}
+
+.pb-16 {
+  padding-bottom: 16px !important;
+}
+
+.pt-16 {
+  padding-top: 16px !important;
 }
 
 .pl-24 {

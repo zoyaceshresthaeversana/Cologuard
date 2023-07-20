@@ -146,6 +146,14 @@ sup {
   grid-area: ColTwo;
 }
 
+.hidden-chart-container button {
+  border: none;
+  background-color: #002c73;
+  padding: 12px 24px;
+  color: white;
+  font-size: 16px !important;
+}
+
 @media only screen and (max-width: 900px) {
   .bottom-container-grid {
     grid-template-areas:
@@ -192,5 +200,10 @@ sup {
     grid-template-areas:
       "ColOne"
       "ColTwo";
+  }
+
+  .hidden-chart-container button {
+    max-width: 40%;
+    padding: 6px 12px;
   }
 }
