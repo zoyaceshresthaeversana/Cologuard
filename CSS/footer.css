@@ -121,6 +121,7 @@
   }
 
   .footer-mid-grid {
+    margin-top: 16px;
     display: grid;
     grid-template-areas: "columnOne columnTwo";
     justify-content: space-between;

@@ -72,9 +72,12 @@ a.active {
 .navbar__btn button {
   padding: 8px 24px;
   border-radius: 20px;
+  font-size: 13px;
   border: none;
   background-color: #006cbe;
   color: white;
+  margin-bottom: 0;
+  max-width: 100%;
 }
 
 .navbar-hamburger-icon {
@@ -124,6 +127,36 @@ a.active {
 .navbar-container-mobile-view {
   /* display: none; */
   transition: all 0.5s;
+}
+
+.navbar__icon {
+  position: relative;
+}
+.navbar__icon form input {
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  border-radius: 18px;
+  border: 2px solid #006cbe;
+  font-weight: normal;
+  width: 100%;
+  padding: 6px 10px 6px 45px;
+  text-align: left;
+  transition: none;
+  background: transparent;
+  vertical-align: middle;
+  color: #006cbe;
+  box-sizing: border-box;
+}
+
+.navbar__icon form button {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 20px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 800px) {

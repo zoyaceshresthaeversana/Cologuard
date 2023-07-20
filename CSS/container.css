@@ -1,0 +1,132 @@
+.bottom-container {
+  color: white;
+  background-color: #2f3c93 !important;
+  border-right: 11px solid #0584ed;
+  border-top: 11px solid #0584ed;
+}
+
+.primary-button {
+  padding: 8px 24px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f07622;
+  color: white;
+}
+
+.bottom-container-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  display: grid;
+  grid-template-areas: "ColOne ColTwo";
+}
+
+.bottom-container-grid .ColOne {
+  grid-area: ColOne;
+}
+
+.bottom-container-grid .ColOne p,
+button {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  max-width: 90%;
+}
+
+.bottom-container-grid .ColTwo {
+  grid-area: ColTwo;
+}
+
+.bottom-container-grid .ColTwo p,
+button {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 1.25rem;
+  max-width: 90%;
+}
+
+/* classes */
+.page-container {
+}
+
+.container {
+  max-width: 1100px;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.white-text-container {
+  padding: 50px 60px;
+}
+
+.white-text-container h2 {
+  padding-bottom: 24px;
+}
+
+.hero-container {
+  background-image: url(../img/background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 35vh;
+}
+
+.hero-container .container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-container h1 {
+  font-size: 45px;
+  height: 200px;
+  position: relative;
+  font-weight: 500;
+}
+
+.hero-text-container {
+  padding: 50px 25px;
+}
+
+sup {
+  font-size: 40%;
+  position: absolute;
+}
+@media only screen and (max-width: 900px) {
+  .bottom-container-grid {
+    grid-template-areas:
+      "ColOne"
+      "ColTwo";
+    text-align: center;
+  }
+
+  .bottom-container-grid .ColOne,
+  .ColTwo {
+    margin-bottom: 16px;
+  }
+
+  .bottom-container-grid .ColOne p,
+  button {
+    max-width: 100%;
+  }
+  .bottom-container-grid .ColTwo p,
+  button {
+    max-width: 100%;
+  }
+
+  .hero-container {
+    background-size: cover;
+    background-position: 66% 50% !important;
+  }
+
+  .hero-text-container {
+    height: 35vh;
+    background: linear-gradient(
+      90deg,
+      #fff 33%,
+      rgba(255, 255, 255, 0.2) 66%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+}
