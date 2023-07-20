@@ -110,6 +110,10 @@ sup {
   column-gap: 10px;
 }
 
+.test-container {
+  color: #c01f5d;
+}
+
 .chart-container-bottom-flex div {
   padding: 12px 50px;
   width: 100%;
@@ -121,6 +125,25 @@ sup {
 .chart-container-bottom-flex div:hover {
   color: white;
   background-color: #2f3c93;
+}
+
+.hidden-chart-container {
+  text-align: left;
+  display: grid;
+  grid-template-areas: "ColOne  ColOne ColTwo";
+}
+
+.hidden-chart-container .ColOne {
+  grid-area: ColOne;
+}
+
+.hidden-chart-container .ColOne div {
+  margin-bottom: 24px;
+}
+
+.hidden-chart-container .ColTwo {
+  text-align: center;
+  grid-area: ColTwo;
 }
 
 @media only screen and (max-width: 900px) {
@@ -163,5 +186,11 @@ sup {
   .chart-container-bottom-flex {
     flex-direction: column;
     row-gap: 10px;
+  }
+
+  .hidden-chart-container {
+    grid-template-areas:
+      "ColOne"
+      "ColTwo";
   }
 }
