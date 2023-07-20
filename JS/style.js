@@ -23,6 +23,8 @@ commercialBtn.addEventListener("click", () => {
     hiddenBlock.style.display = "grid";
   } else {
     hiddenBlock.style.display = "none";
+    coverContainer.style.display = "none";
+    nonCoverContainer.style.display = "none";
   }
 });
 
