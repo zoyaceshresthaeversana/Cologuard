@@ -230,6 +230,10 @@ sup {
     );
   }
 
+  .chart-container h1 {
+    font-size: 24px;
+  }
+
   .chart-container-bottom-flex {
     flex-direction: column;
     row-gap: 10px;
