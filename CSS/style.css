@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "Whyte Super";
+  font-family: "Whyte";
   src: url("../Whyte-Super.eot");
   src: local("Whyte Super"), local("Whyte-Super"),
     url("Whyte-Super.eot?#iefix") format("embedded-opentype"),
@@ -18,7 +18,7 @@
 }
 
 @font-face {
-  font-family: "Whyte Super";
+  font-family: "Whyte";
   src: url("../Whyte-Super.ttf");
   src: local("Whyte Super"), local("Whyte-Super"),
     url("Whyte-Super.eot?#iefix") format("embedded-opentype"),

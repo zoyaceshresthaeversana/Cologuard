@@ -250,6 +250,7 @@ sup {
       rgba(255, 255, 255, 0.2) 66%,
       rgba(255, 255, 255, 0) 100%
     );
+    height: 35vh;
   }
 
   .chart-container h1 {
