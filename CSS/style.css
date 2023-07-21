@@ -17,6 +17,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Whyte Super";
+  src: url("../Whyte-Super.ttf");
+  src: local("Whyte Super"), local("Whyte-Super"),
+    url("Whyte-Super.eot?#iefix") format("embedded-opentype"),
+    url("Whyte-Super.woff2") format("woff2"),
+    url("Whyte-Super.woff") format("woff"),
+    url("Whyte-Super.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Whyte Super", sans-serif;
   color: #002c73;
