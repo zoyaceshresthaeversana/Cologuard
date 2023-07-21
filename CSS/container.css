@@ -189,6 +189,25 @@ sup {
   display: none;
 }
 
+.bg-light {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.bg-light-flex {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.bg-light img {
+  width: auto;
+  height: 50px;
+  padding: 0 6px;
+  background-color: white;
+  border-radius: 100px;
+}
+
 @media only screen and (max-width: 900px) {
   .primary-button {
     font-size: 16px;
@@ -221,7 +240,6 @@ sup {
   }
 
   .hero-text-container {
-    height: 35vh;
     background: linear-gradient(
       90deg,
       #fff 33%,
