@@ -127,6 +127,7 @@ sup {
   background-color: #2f3c93;
 }
 
+/* Hidden container Commercial*/
 .hidden-chart-container {
   text-align: left;
   display: none;
@@ -153,6 +154,7 @@ sup {
   color: white;
   font-size: 16px !important;
 }
+
 /* Hidden COver Container */
 .hidden-cover-container {
   display: none;
@@ -272,6 +274,18 @@ sup {
     max-width: 40%;
     padding: 6px 12px;
   }
+
+  .Medicaid-hidden-chart-container {
+    grid-template-areas:
+      "ColOne"
+      "ColTwo";
+  }
+
+  .Medicaid-hidden-chart-container button {
+    max-width: 40%;
+    padding: 6px 12px;
+  }
+
   .two-col-flex {
     grid-template-areas:
       "ColOne"
