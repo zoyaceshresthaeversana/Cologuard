@@ -3,6 +3,39 @@
   color: white;
 }
 
+/* Hidden container Commercial*/
+.hidden-chart-container {
+  text-align: left;
+  display: none;
+  grid-template-areas: "ColOne  ColOne ColTwo";
+}
+
+.hidden-chart-container .ColOne {
+  grid-area: ColOne;
+}
+
+.hidden-chart-container .ColOne div {
+  margin-bottom: 24px;
+}
+
+.hidden-chart-container .ColTwo {
+  text-align: center;
+  grid-area: ColTwo;
+}
+
+.hidden-chart-container .ColTwo img {
+  width: 250px;
+  height: auto;
+}
+
+.hidden-chart-container button {
+  border: none;
+  background-color: #002c73;
+  padding: 12px 24px;
+  color: white;
+  font-size: 16px !important;
+}
+
 .MedicaidSearch,
 .MedicareSearch {
   border-radius: 45px;
@@ -27,6 +60,11 @@
 .Medicaid-hidden-chart-container .ColTwo {
   text-align: center;
   grid-area: ColTwo;
+}
+
+.Medicaid-hidden-chart-container .ColTwo img {
+  width: 250px;
+  height: auto;
 }
 
 .Medicaid-hidden-chart-container button {
@@ -57,6 +95,11 @@
   grid-area: ColTwo;
 }
 
+.Medicare-hidden-chart-container .ColTwo img {
+  width: 250px;
+  height: auto;
+}
+
 .Medicare-hidden-chart-container button {
   border: none;
   background-color: #002c73;
@@ -84,6 +127,28 @@
   }
 
   .Medicare-hidden-chart-container button {
+    max-width: 40%;
+    padding: 6px 12px;
+  }
+
+  .hidden-chart-container {
+    grid-template-areas:
+      "ColOne"
+      "ColTwo";
+  }
+
+  .hidden-chart-container button {
+    max-width: 40%;
+    padding: 6px 12px;
+  }
+
+  .Medicaid-hidden-chart-container {
+    grid-template-areas:
+      "ColOne"
+      "ColTwo";
+  }
+
+  .Medicaid-hidden-chart-container button {
     max-width: 40%;
     padding: 6px 12px;
   }

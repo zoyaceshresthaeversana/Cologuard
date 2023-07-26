@@ -127,34 +127,6 @@ sup {
   background-color: #2f3c93;
 }
 
-/* Hidden container Commercial*/
-.hidden-chart-container {
-  text-align: left;
-  display: none;
-  grid-template-areas: "ColOne  ColOne ColTwo";
-}
-
-.hidden-chart-container .ColOne {
-  grid-area: ColOne;
-}
-
-.hidden-chart-container .ColOne div {
-  margin-bottom: 24px;
-}
-
-.hidden-chart-container .ColTwo {
-  text-align: center;
-  grid-area: ColTwo;
-}
-
-.hidden-chart-container button {
-  border: none;
-  background-color: #002c73;
-  padding: 12px 24px;
-  color: white;
-  font-size: 16px !important;
-}
-
 /* Hidden COver Container */
 .hidden-cover-container {
   display: none;
@@ -262,28 +234,6 @@ sup {
   .chart-container-bottom-flex {
     flex-direction: column;
     row-gap: 10px;
-  }
-
-  .hidden-chart-container {
-    grid-template-areas:
-      "ColOne"
-      "ColTwo";
-  }
-
-  .hidden-chart-container button {
-    max-width: 40%;
-    padding: 6px 12px;
-  }
-
-  .Medicaid-hidden-chart-container {
-    grid-template-areas:
-      "ColOne"
-      "ColTwo";
-  }
-
-  .Medicaid-hidden-chart-container button {
-    max-width: 40%;
-    padding: 6px 12px;
   }
 
   .two-col-flex {
