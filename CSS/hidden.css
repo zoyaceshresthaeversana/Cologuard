@@ -33,9 +33,11 @@
   background-color: #002c73;
   padding: 12px 24px;
   color: white;
+  border-radius: 45px;
   font-size: 16px !important;
 }
 
+.CommercialSearch,
 .MedicaidSearch,
 .MedicareSearch {
   border-radius: 45px;
